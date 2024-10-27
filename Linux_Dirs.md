@@ -1,4 +1,3 @@
-
 ## /bin
 
 Contains essential binaries (executables) needed for basic system operation, like basic commands (ls, cp, mv). These are commands needed by all users and are available even in single-user mode.

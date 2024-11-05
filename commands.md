@@ -1,2 +1,2 @@
 ## change the directory:
-    `cd /etc`
+    cd /etc

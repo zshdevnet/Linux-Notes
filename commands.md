@@ -31,10 +31,28 @@
         (3): giving the name of the file to search
 
 ## Using FIND with all extention by adding .* :
+
     find /etc -type f -name apache2.*
 
 ## Checkign how many process is running currently in your PC:
+
     ps aux
 
 ## If you want to see a specific application running or not, in our instance apache2:
+
     ps aux | grep apache2
+
+## Hacker Challenge: Using gpep, nl, tail, head
+
+    tail -20 file.txt
+    head -10 file.txt
+    nl file.txt
+    nl file.txt | grep Keyword_that_searching
+
+## Using sed to Find and Replace
+
+    sed s/mysql/MySql/g - replasing globally
+    sed s/mysql/MySql/2 - replacing only the second one after all items appeared in search
+
+        s - search
+        g - globally
